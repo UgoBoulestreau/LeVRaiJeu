@@ -40,5 +40,8 @@ sysinfo.txt
 *.aab
 *.unitypackage
 
+# other
+Library/ArtifactDB
+
 # Crashlytics generated file
 crashlytics-build.properties
