@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Epitech\\tek4\\semestre 2\\AR_VR\\FinalTerm\\LeVRaiJeu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9331933C-1AAE-0708-4C64-77DD398ECC9A}|Assembly-CSharp.csproj|d:\\epitech\\tek4\\semestre 2\\ar_vr\\finalterm\\levraijeu\\assets\\scripts\\break.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9331933C-1AAE-0708-4C64-77DD398ECC9A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\break.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Break.cs",
+              "DocumentMoniker": "D:\\Epitech\\tek4\\semestre 2\\AR_VR\\FinalTerm\\LeVRaiJeu\\Assets\\Scripts\\Break.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Break.cs",
+              "ToolTip": "D:\\Epitech\\tek4\\semestre 2\\AR_VR\\FinalTerm\\LeVRaiJeu\\Assets\\Scripts\\Break.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Break.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T05:47:54.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
