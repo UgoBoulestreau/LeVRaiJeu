@@ -92,8 +92,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5674103932095771286}
-  - component: {fileID: 2227512748460749550}
   - component: {fileID: 404365363464613737}
+  - component: {fileID: 8215879934278070661}
   m_Layer: 0
   m_Name: targetIntact
   m_TagString: Untagged
@@ -117,20 +117,6 @@ Transform:
   - {fileID: 6106218337338695354}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2227512748460749550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7905394904774277746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac42d4b3214b5cd45ab8505c68c33ae3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fractured: {fileID: 5513732257581095474, guid: 766326d7ade79304ea8100b3e95be9f5, type: 3}
-  breakForce: 250
 --- !u!65 &404365363464613737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -152,3 +138,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.74056554, y: 0.7255329, z: 0.0882287}
   m_Center: {x: -0.004969716, y: -0.0012399554, z: 0.0073424876}
+--- !u!114 &8215879934278070661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905394904774277746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf4cbeac0a7f0e42bb88c9b38b93a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fractured: {fileID: 5513732257581095474, guid: 3f0da1cd8d1141647b7a0b385be76283, type: 3}
+  breakForce: 250
