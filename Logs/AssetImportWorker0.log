@@ -15,7 +15,7 @@ D:/Epitech/tek4/semestre 2/AR_VR/FinalTerm/LeVRaiJeu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65439
+55412
 Successfully changed project path to: D:/Epitech/tek4/semestre 2/AR_VR/FinalTerm/LeVRaiJeu
 D:/Epitech/tek4/semestre 2/AR_VR/FinalTerm/LeVRaiJeu
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Epitech/tek4/semestre 2/AR_VR/FinalTerm/LeVRaiJeu
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8332] Host "[IP] 172.16.2.155 [Port] 0 [Flags] 2 [Guid] 941481922 [EditorId] 941481922 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7OCMB4B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19484] Host "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 313596434 [EditorId] 313596434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7OCMB4B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8332] Host "[IP] 172.16.2.155 [Port] 0 [Flags] 2 [Guid] 941481922 [EditorId] 941481922 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7OCMB4B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19484] Host "[IP] 192.168.0.57 [Port] 0 [Flags] 2 [Guid] 313596434 [EditorId] 313596434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7OCMB4B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 29.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -65,52 +65,52 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
     Vendor:   NVIDIA
     VRAM:     5966 MB
-    Driver:   31.0.15.5244
+    Driver:   32.0.15.5585
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.030873 seconds.
-- Loaded All Assemblies, in  0.665 seconds
+Registered in 0.023643 seconds.
+- Loaded All Assemblies, in  0.457 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 512 ms
+Android Extension - Scanning For ADB Devices 331 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.347 seconds
-Domain Reload Profiling: 2006ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1191ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (236ms)
-		LoadAssemblies (236ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (139ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (201ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (144ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1349ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (739ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1175ms)
+		SetupLoadedEditorAssemblies (666ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (785ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (466ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (261ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 2006ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.090 seconds
-Refreshing native plugins compatible for Editor in 7.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.886 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -136,47 +136,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.441 seconds
-Domain Reload Profiling: 3525ms
-	BeginReloadAssembly (345ms)
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 1738ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (1552ms)
-		LoadAssemblies (1203ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (445ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (578ms)
-			TypeCache.Refresh (517ms)
-				TypeCache.ScanAssembly (475ms)
-			ScanForSourceGeneratedMonoScriptInfo (46ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1444ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (189ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (859ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1064ms)
+		SetupLoadedEditorAssemblies (657ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (71ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (713ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (51ms)
-			EditorAssembliesLoaded (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4276 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (58.1 KB). Loaded Objects now: 4744.
-Memory consumption went from 153.0 MB to 153.0 MB.
-Total: 6.131200 ms (FindLiveObjects: 0.484600 ms CreateObjectMapping: 0.457700 ms MarkObjects: 4.981600 ms  DeleteObjects: 0.205300 ms)
+Unloading 48 unused Assets / (58.0 KB). Loaded Objects now: 4744.
+Memory consumption went from 152.7 MB to 152.7 MB.
+Total: 6.684200 ms (FindLiveObjects: 0.475800 ms CreateObjectMapping: 0.389500 ms MarkObjects: 5.581200 ms  DeleteObjects: 0.235700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,25 +193,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23261.132836 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(dcb3d5bd28a4645428a89956cc66fca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(dcb3d5bd28a4645428a89956cc66fca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d744ef82154990d08fd26d91087aeb') in 0.003018 seconds
+  Time since last request: 47145.267281 seconds.
+  path: Assets/Scripts/GameManager
+  artifactKey: Guid(e72d8a06ff150c14298c7d423e524cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager using Guid(e72d8a06ff150c14298c7d423e524cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58474a32e0d14cad0a4d3e903e12c4e8') in 0.002642 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.058309 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(1a28ef54e2e819f4c9e1b817c83450de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(1a28ef54e2e819f4c9e1b817c83450de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd48053f34b53c29fc2503a2b3ec684') in 0.130454 seconds
+  Time since last request: 8.741608 seconds.
+  path: Assets/Scripts/GameManager/GameManager.cs
+  artifactKey: Guid(2d1592771546d6743a4a5e5f0ce8f73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager/GameManager.cs using Guid(2d1592771546d6743a4a5e5f0ce8f73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99223a1856ca16beec5eac6b780d9a9') in 0.000461 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.805 seconds
-Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.421 seconds
+Refreshing native plugins compatible for Editor in 8.04 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -224,46 +224,118 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.565 seconds
-Domain Reload Profiling: 3359ms
-	BeginReloadAssembly (266ms)
+- Finished resetting the current domain, in  2.329 seconds
+Domain Reload Profiling: 3743ms
+	BeginReloadAssembly (557ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (401ms)
-		LoadAssemblies (522ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (701ms)
+		LoadAssemblies (913ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (17ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2565ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2330ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
+		SetupLoadedEditorAssemblies (706ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (721ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (36ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 7.81 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4266 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (31.2 KB). Loaded Objects now: 4757.
-Memory consumption went from 152.3 MB to 152.3 MB.
-Total: 7.183300 ms (FindLiveObjects: 0.703000 ms CreateObjectMapping: 0.397200 ms MarkObjects: 5.995400 ms  DeleteObjects: 0.086500 ms)
+Unloading 4267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4749.
+Memory consumption went from 151.8 MB to 151.8 MB.
+Total: 5.674800 ms (FindLiveObjects: 0.382600 ms CreateObjectMapping: 0.571000 ms MarkObjects: 4.641000 ms  DeleteObjects: 0.079100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.768 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.893 seconds
+Domain Reload Profiling: 2655ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4753.
+Memory consumption went from 154.0 MB to 154.0 MB.
+Total: 3.905800 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.282800 ms MarkObjects: 3.219000 ms  DeleteObjects: 0.048500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -281,57 +353,1169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 140.295447 seconds.
-  path: Assets/Prefabs/targetIntact.prefab
-  artifactKey: Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/targetIntact.prefab using Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71f496cde38f4260c2d7ab5937ebc96') in 0.124974 seconds
+  Time since last request: 106.144319 seconds.
+  path: Assets/target.fbx
+  artifactKey: Guid(2fa177670e8edba4086c524f2087497a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/target.fbx using Guid(2fa177670e8edba4086c524f2087497a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47f6bc26ce05bab2a360efd69d84fa76') in 0.314814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab
+  artifactKey: Guid(6cf950e757e075945b307868fc3bd60e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab using Guid(6cf950e757e075945b307868fc3bd60e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '669f7b565a18d357c80eb5e065e96a78') in 0.052080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_02.fbx
+  artifactKey: Guid(ac743e4b145f4b944a5d2b6b26fea45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_02.fbx using Guid(ac743e4b145f4b944a5d2b6b26fea45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b57ee88695207df1911bfa050597bb92') in 0.029874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_03.prefab
+  artifactKey: Guid(7f14e8833dc154b44b20de9e6f911ca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_03.prefab using Guid(7f14e8833dc154b44b20de9e6f911ca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8823752331300188deaf3e347090b11f') in 0.044172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Tree_01.prefab
+  artifactKey: Guid(ab36f4e752fd5d74d8e9f8f24c8864f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Tree_01.prefab using Guid(ab36f4e752fd5d74d8e9f8f24c8864f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39ca872b10a15ff677978eada3816ccf') in 0.030914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_5x5_01P.fbx
+  artifactKey: Guid(08b90f6a0b333ce47b856ad0651fdde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_5x5_01P.fbx using Guid(08b90f6a0b333ce47b856ad0651fdde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d6ec7a618f4e710244770d12464dd2e') in 0.030639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Materials/PolygonStarter_Mat_02.mat
+  artifactKey: Guid(2d9674097da42b2448220c5e2805bb27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Materials/PolygonStarter_Mat_02.mat using Guid(2d9674097da42b2448220c5e2805bb27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2ab621f882428678c60b98f475ca5a4') in 0.030593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab
+  artifactKey: Guid(1eb47ee7fb4e0224482d77ed61559671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab using Guid(1eb47ee7fb4e0224482d77ed61559671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '307d9a70d6f58dce5f3402bf2c9f8a5c') in 0.023738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab
+  artifactKey: Guid(5527826a6315a224d850675a730c4f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab using Guid(5527826a6315a224d850675a730c4f62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '90f2b3843a597a9357ec119c5cd8cfec') in 0.026646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.fbx
+  artifactKey: Guid(582c0251609fe624a98b3de23a6e89da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.fbx using Guid(582c0251609fe624a98b3de23a6e89da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09bfab57500bd8065f09ed3aaa3fec73') in 0.037661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Ground_Flat_01.prefab
+  artifactKey: Guid(e484c7ad7b1274b4c847940d3eb54d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Ground_Flat_01.prefab using Guid(e484c7ad7b1274b4c847940d3eb54d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ac6ee25bed6e756a2db6b928699a709') in 0.028426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab
+  artifactKey: Guid(d3f65bf385a3c3847ab550b32f3e53e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab using Guid(d3f65bf385a3c3847ab550b32f3e53e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a186ab41319a99128b16e05a7854fd3d') in 0.042085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx
+  artifactKey: Guid(6055577e4f794be4fb975210c267ebef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx using Guid(6055577e4f794be4fb975210c267ebef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fa551173282b64db0a0d280d70efe0b') in 0.032705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab
+  artifactKey: Guid(35b4129ac994d4e49a7699deb68ac65b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab using Guid(35b4129ac994d4e49a7699deb68ac65b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '631113a4458dd6fc9ac09f03e51c1f99') in 0.042285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab
+  artifactKey: Guid(f675c07d915406144ae3100b985c0abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab using Guid(f675c07d915406144ae3100b985c0abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fab201fda34c935f7dfdc77b6e451d85') in 0.028265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_1x1_01P.fbx
+  artifactKey: Guid(efecce0669e04d14aada7871935a434d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_1x1_01P.fbx using Guid(efecce0669e04d14aada7871935a434d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0908c86ecbb78e51d1e0e0858b514c7c') in 0.032941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonStarter/Models/SM_Bean_Cowboy_01.fbx
+  artifactKey: Guid(477c3a0d92aa1424db2ac70c581d1745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Bean_Cowboy_01.fbx using Guid(477c3a0d92aa1424db2ac70c581d1745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cda6ed21550f29da1283877f0e6b6672') in 0.032853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/targetDestroyed.prefab
+  artifactKey: Guid(3f0da1cd8d1141647b7a0b385be76283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/targetDestroyed.prefab using Guid(3f0da1cd8d1141647b7a0b385be76283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea55a1d71d5375dfea81a64169eadf86') in 0.031596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 382
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cbbd89b545521dcf193677f8b174af1') in 0.019325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Models/SM_Bean_Town_Female_01.fbx
+  artifactKey: Guid(f7e1d82bf18845c41bfe76f17769ef20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Bean_Town_Female_01.fbx using Guid(f7e1d82bf18845c41bfe76f17769ef20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24069bb1e0564f188aa54b9ad45eacb9') in 0.034302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_CloudRing_01.fbx
+  artifactKey: Guid(c46fa2dcdad10a34d9cfcf6eaee6c3ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_CloudRing_01.fbx using Guid(c46fa2dcdad10a34d9cfcf6eaee6c3ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2a1626d87fdaf70a1f7d630d4477d1d') in 0.041988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Tree_04.fbx
+  artifactKey: Guid(0b35305b613e7904395698641c0150cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Tree_04.fbx using Guid(0b35305b613e7904395698641c0150cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8169b6772ee39fe1b3c503f1cc1872c8') in 0.035232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab
+  artifactKey: Guid(c6865c562fd3f2841a92dc0cbbd6b4b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab using Guid(c6865c562fd3f2841a92dc0cbbd6b4b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30eb19e91b6e5cf36f8d8bc63bf56012') in 0.076658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat
+  artifactKey: Guid(167faa9f54383f04987dcacc6372f1b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat using Guid(167faa9f54383f04987dcacc6372f1b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3e6860d5d42e2f00dd08ae259ca38ef') in 0.038220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx
+  artifactKey: Guid(7ce50dc06d7bb62448b532080fd35371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx using Guid(7ce50dc06d7bb62448b532080fd35371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9125b9a4e50e940011907f020673891') in 0.038403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx
+  artifactKey: Guid(b45e496b386039141af15f243dd3ac22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx using Guid(b45e496b386039141af15f243dd3ac22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a78f5f638e1115b167540357915910c3') in 0.042651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(a67c89be98cf3e64b95a11a70276d01c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(a67c89be98cf3e64b95a11a70276d01c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1acb936324cb37d942fe753ad47b1660') in 0.032301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png
+  artifactKey: Guid(a969091ee1740c3469cc70c44c3caa60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png using Guid(a969091ee1740c3469cc70c44c3caa60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77b906d49fa19a5ad42fe875f8473326') in 0.122794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab
+  artifactKey: Guid(097c26aede8f73e41a32d546bd00e97f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab using Guid(097c26aede8f73e41a32d546bd00e97f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '187598dca3bcfda5ac7645024d17b6f6') in 0.031490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx
+  artifactKey: Guid(e9ca908cdd3e3f54a8fd61457b2a8c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx using Guid(e9ca908cdd3e3f54a8fd61457b2a8c60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e00b57c3604dba9c725ca81ee229c44') in 0.033022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat
+  artifactKey: Guid(24178269aee50fa45af0c61018153ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat using Guid(24178269aee50fa45af0c61018153ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98e7bb0b233dff42a0e346783e48b620') in 0.020969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab
+  artifactKey: Guid(bbea6872df405a045862b0d1f277c5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab using Guid(bbea6872df405a045862b0d1f277c5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb8c26689e86125f951c9330b76ff6e5') in 0.043043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab
+  artifactKey: Guid(e865a10713e46984aba70d89a679e42f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab using Guid(e865a10713e46984aba70d89a679e42f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be377258efa7cb2c41d5c3f11ae641c5') in 0.028561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx
+  artifactKey: Guid(863c2e4bd290d4344bfa0c76e862a0cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx using Guid(863c2e4bd290d4344bfa0c76e862a0cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '129a080be30058b88f30b0ef68828d07') in 0.031135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab
+  artifactKey: Guid(9b88eb630e9e15a4f950eae741685374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab using Guid(9b88eb630e9e15a4f950eae741685374) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ab20137a8bc3b9bc4bde8446b40bdae') in 0.025495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab
+  artifactKey: Guid(bc89cff11dc72544faaaa69b501fd596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab using Guid(bc89cff11dc72544faaaa69b501fd596) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '526d9de3c419fa108e2c9c9075de0f0e') in 0.025413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(7c78a57c77d0f514e97009d3e8155b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(7c78a57c77d0f514e97009d3e8155b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb0eaf9a656fee051f40367c2aec7b19') in 0.024323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab
+  artifactKey: Guid(f10c394033f254647873f3d28a75a062) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab using Guid(f10c394033f254647873f3d28a75a062) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58078c751abd37e192f1b8ad998dba19') in 0.023337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef
+  artifactKey: Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef using Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98211c9415c62852711c0135e6621050') in 0.025227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx
+  artifactKey: Guid(cace0b4260176de46b5ca288f5d42e32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx using Guid(cace0b4260176de46b5ca288f5d42e32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '289de3df6bc1c70067445ec4d5a1c1d7') in 0.039840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f46bec55dbd883d54354ff907b2f2834') in 0.068507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab
+  artifactKey: Guid(f11fc98cf1e8d5547a9b2ec85cc9c664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab using Guid(f11fc98cf1e8d5547a9b2ec85cc9c664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '475d9042b89123ff31378d44eab61e15') in 0.039661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '523110ef7e12afc5b536b7bef2555194') in 0.023064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab
+  artifactKey: Guid(f528363d2aaa5d748ab9fcd16b601236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab using Guid(f528363d2aaa5d748ab9fcd16b601236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de236310983e441fa738aa0f41d25bfb') in 0.024557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Ground_02.fbx
+  artifactKey: Guid(52eab9b1dd1fdf34c932b634c4514ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Ground_02.fbx using Guid(52eab9b1dd1fdf34c932b634c4514ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6d5357958c61851383becd8639e16dc') in 0.036911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab
+  artifactKey: Guid(af1ac26269830d347859c2c45ef72494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab using Guid(af1ac26269830d347859c2c45ef72494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9c5d4d6701065731cbe9ebe246486f1') in 0.026389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx
+  artifactKey: Guid(8332f017cfb13984196e491ffb1aaf3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx using Guid(8332f017cfb13984196e491ffb1aaf3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4eff2ab5be77e3ee24992d1d38e51770') in 0.029132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab
+  artifactKey: Guid(fb0131aa61eef7c4d95b2efaf17614ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab using Guid(fb0131aa61eef7c4d95b2efaf17614ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b2077ab6c8c29a31838236b2ea79379') in 0.028220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_DoorFrame_01P.fbx
+  artifactKey: Guid(7ce54f0ead747e44e8ca2778de346dd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_DoorFrame_01P.fbx using Guid(7ce54f0ead747e44e8ca2778de346dd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed37bcfbe4a85aab358355f1067db8d8') in 0.034498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerRight.fbx
+  artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64fe21d35e164ac425598d87d156e884') in 0.052502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Left Grab Move.preset
+  artifactKey: Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Left Grab Move.preset using Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5a3034ca629b31a87d7756f8f9e3924') in 0.046455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/Primitive_Wedge.fbx
+  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '335ff512f67016053154ff2dfcaf45fa') in 0.038623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/XRPokeFollowAffordance.cs
+  artifactKey: Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/XRPokeFollowAffordance.cs using Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f70d0bc2a848ce92213ff1e1d5c1f695') in 0.019882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9191a4d7bdb7650b324483ea9c97071e') in 0.049015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png
+  artifactKey: Guid(3c88dab59f29ae7439e1be3c8742bd88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png using Guid(3c88dab59f29ae7439e1be3c8742bd88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45eca7a81a56796737af535de173d93b') in 0.033225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/DynamicMoveProvider.cs
+  artifactKey: Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/DynamicMoveProvider.cs using Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81f67dff19f639a9a0256950e350d2c0') in 0.017807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_01.prefab
+  artifactKey: Guid(39dfb394e864da84db3b1c7e8f517888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_01.prefab using Guid(39dfb394e864da84db3b1c7e8f517888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f48354ba8f0435d4c5bb3ed1c27a608') in 0.028912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab
+  artifactKey: Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab using Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be8f52254bef9652a6b6c05230f0b293') in 0.026611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Soft_01.prefab
+  artifactKey: Guid(a114301c17a8f9d4e87a828e20f894a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Soft_01.prefab using Guid(a114301c17a8f9d4e87a828e20f894a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6c62816b11d434e4e80cb7e0e4b9eb7') in 0.028078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat
+  artifactKey: Guid(a34e2e9511ab63041850d60a4868cfcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat using Guid(a34e2e9511ab63041850d60a4868cfcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c90090b7ca698da3cb0e5988cc3fa0c5') in 0.052005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab
+  artifactKey: Guid(e332982425ee2ec48b168979bb7b43f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab using Guid(e332982425ee2ec48b168979bb7b43f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5d7fc5c5982a067593d8fb978aae8e5') in 0.027167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png
+  artifactKey: Guid(eac0676553323674aa7d6e8e4d94dec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png using Guid(eac0676553323674aa7d6e8e4d94dec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01440ec3c889df71c6cebd1edb59da86') in 0.032386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx
+  artifactKey: Guid(4d167806285be1145935ba43ca5996fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx using Guid(4d167806285be1145935ba43ca5996fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cf4460e4b32fd354043ee02f736e73e') in 0.034246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png
+  artifactKey: Guid(db3e7b7c8db355e499429545071a0321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Checkmark.png using Guid(db3e7b7c8db355e499429545071a0321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5259f83c4b68246b888018ebf2b910c') in 0.043657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Pinch Expression Capture.asset
+  artifactKey: Guid(d6e15a52475c2564ca7d2977fdece24a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Pinch Expression Capture.asset using Guid(d6e15a52475c2564ca7d2977fdece24a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18e9bd474db09c4157c155039dbb74b9') in 0.025661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+  artifactKey: Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05fde47a8a2321e6560ef2b604b14fc4') in 0.049242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+  artifactKey: Guid(5833e680dc0f7ae47aec6b4286570484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc41cf263880cbc8e99f3c9a455b2b41') in 0.034195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Forward.png
+  artifactKey: Guid(f8ecc54972abacc46a93f671b0602139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Forward.png using Guid(f8ecc54972abacc46a93f671b0602139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f13a176b04a8ab8560c1181abfcfa41c') in 0.041127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Thumb Expression Capture.asset
+  artifactKey: Guid(9d8c9c84da35a7c4c89efd57343c1df8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Thumb Expression Capture.asset using Guid(9d8c9c84da35a7c4c89efd57343c1df8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa6b241591e8b36d915f352a9551dec6') in 0.024134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Letter_Question_01.prefab
+  artifactKey: Guid(0a38eb871bfa7c646bc59c4f2eeea64b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Letter_Question_01.prefab using Guid(0a38eb871bfa7c646bc59c4f2eeea64b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f7c97b5b50a31636fda388b53884f5c') in 0.024655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx
+  artifactKey: Guid(8d1177ba3d7335442be5de9e2472ae26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx using Guid(8d1177ba3d7335442be5de9e2472ae26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68588e16e05c285ab17f3abcf84f6b6e') in 0.035218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Tree_03.fbx
+  artifactKey: Guid(f83ed2876384d1f4cb9b147d9bd0fd4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Tree_03.fbx using Guid(f83ed2876384d1f4cb9b147d9bd0fd4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c6ed2b05049a4a0101e33502d224e97') in 0.033475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav
+  artifactKey: Guid(16fba6d30ed741d4a9fdd6e79ee2f3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav using Guid(16fba6d30ed741d4a9fdd6e79ee2f3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '087c004e2886df18dd1c538006957c3b') in 0.092158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef
+  artifactKey: Guid(9233538b711383d449a485633568d17c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef using Guid(9233538b711383d449a485633568d17c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5be9de9cf7ca516cdfbded3219216eb0') in 0.024591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab
+  artifactKey: Guid(280053154239720458c4b6093bfea66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab using Guid(280053154239720458c4b6093bfea66a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '700767bf703b48fc97ee0e833477b68e') in 0.024384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx
+  artifactKey: Guid(5177448ec4a4be94ab1faeb920c5e49d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx using Guid(5177448ec4a4be94ab1faeb920c5e49d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b1777bb649bb9c4c43954281f6ba7b3') in 0.032535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png
+  artifactKey: Guid(b7bad1260586fa746a0b67e930892936) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png using Guid(b7bad1260586fa746a0b67e930892936) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0120643f58e7604a8cef6228509dd002') in 0.033870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/CycleXRDevices.png
+  artifactKey: Guid(731e7aed8e9f540ac8bf2a7b66abdaf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/CycleXRDevices.png using Guid(731e7aed8e9f540ac8bf2a7b66abdaf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f186791328c61eef425f2f9483ba1daf') in 0.037843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/DeviceSimUI_bg.png
+  artifactKey: Guid(d7348fb3f11ba4f6f933462328963785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/DeviceSimUI_bg.png using Guid(d7348fb3f11ba4f6f933462328963785) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd237fc5b04d400677b1dc1b3033c87d4') in 0.041079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4bfa8db416fa8285c15bff820f465654') in 0.027572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/btn_bgbottom.png
+  artifactKey: Guid(89cb99e3e22696848a1cbce7b320f520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/btn_bgbottom.png using Guid(89cb99e3e22696848a1cbce7b320f520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52cf9a5a4c9e0670f854e0213705b451') in 0.034626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_5x5_01P.prefab
+  artifactKey: Guid(9672218ecb324c240ae58e7a390701f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_5x5_01P.prefab using Guid(9672218ecb324c240ae58e7a390701f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f5e6d09559b3d0ea6b2e6ad1aab6803') in 0.025236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerLeft.fbx
+  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1017543739c465a3de760a0964c59bd6') in 0.046836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab
+  artifactKey: Guid(296b6c6ad62626c48aef7fa6c5e2a9a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab using Guid(296b6c6ad62626c48aef7fa6c5e2a9a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9b69646fa72585cc5558683ce307b10') in 0.027963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab
+  artifactKey: Guid(fc6f3424666dfda45bcbadbbf42e5968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab using Guid(fc6f3424666dfda45bcbadbbf42e5968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50f6afc63b159203522df8bf00df27e5') in 0.026609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Ground_03.fbx
+  artifactKey: Guid(7cf8232403ff6a14483511b1d83ccf1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Ground_03.fbx using Guid(7cf8232403ff6a14483511b1d83ccf1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc3f079a66a93bbfc08ae3d7e38932f2') in 0.028959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5783556e0d8b13593b53cc25f569ad5d') in 0.106252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 307
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Tree_01.fbx
+  artifactKey: Guid(eafcccb3a6a70464caf8371e0f6153df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Tree_01.fbx using Guid(eafcccb3a6a70464caf8371e0f6153df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8fe711d167e1f7db2f097513179d45df') in 0.034218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
+  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb4a879b5a0002fe8d6b6fb60290f6e8') in 0.021556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Grab.png
+  artifactKey: Guid(bd6b9153aa3b96f49b238bbf6ae68b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Grab.png using Guid(bd6b9153aa3b96f49b238bbf6ae68b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8fb8bb29cccd2e6fe527bf6dca3b915f') in 0.041408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Thumb.png
+  artifactKey: Guid(3b2e62babc5249f42921c2cd027852cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Thumb.png using Guid(3b2e62babc5249f42921c2cd027852cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a94b29ed49bd66aa211cff05de36ff81') in 0.041858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice/HMDOverlay.png
+  artifactKey: Guid(fb2db2f40ceaf458085c82fc17cfe800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice/HMDOverlay.png using Guid(fb2db2f40ceaf458085c82fc17cfe800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '311cf435cc2009de461a33adf0b2c055') in 0.053295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Mouse/MouseR.png
+  artifactKey: Guid(14e910c1fb9c7514a8106ffd25f1d892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Mouse/MouseR.png using Guid(14e910c1fb9c7514a8106ffd25f1d892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2aa3a627618265c89518b1740be38d48') in 0.039310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice/HMD_d.png
+  artifactKey: Guid(177f60e6b21ff774093004ca330b2241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice/HMD_d.png using Guid(177f60e6b21ff774093004ca330b2241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbea51b6b6760a0b0377f74dc15159ad') in 0.038979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Pinch.png
+  artifactKey: Guid(a6721511441c05a43964dac58584c890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Pinch.png using Guid(a6721511441c05a43964dac58584c890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '886ad5f808343c4757fc84f5c06dee46') in 0.043945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/Look.png
+  artifactKey: Guid(5410adf0b914f49438506b7dd0022773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/Look.png using Guid(5410adf0b914f49438506b7dd0022773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9dcb3e1e1e4f7bf3d873ce9f707746bd') in 0.036945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice/HMD.png
+  artifactKey: Guid(4eb43321e418951499417cda6141b31a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice/HMD.png using Guid(4eb43321e418951499417cda6141b31a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c864b7d1ae402ab4224122a7a881756') in 0.040846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/Unlocked.png
+  artifactKey: Guid(f01f3bb228b3b4251a04e2036212d115) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/Unlocked.png using Guid(f01f3bb228b3b4251a04e2036212d115) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5159c6da1587673d14006fa5f20bf799') in 0.044056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/ObjectSpawner.cs
+  artifactKey: Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/ObjectSpawner.cs using Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e240c0d5398712476a209778ff30b3b1') in 0.021556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+  artifactKey: Guid(b84cd05e1160fe34cab2585022c8cd99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab using Guid(b84cd05e1160fe34cab2585022c8cd99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '906a32e10f5295260bd7f240f8ab1f22') in 0.060891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '182e92cb5b0e8d0b3d19f8183126bb55') in 0.037182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Kinematic Torus.prefab
+  artifactKey: Guid(521327bdbcb341f782d36f02cab76cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Kinematic Torus.prefab using Guid(521327bdbcb341f782d36f02cab76cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05f17d51f83dd4fe49df1680953d0233') in 0.049445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab
+  artifactKey: Guid(fad94b617f0540568dbf4c9c4011248c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(fad94b617f0540568dbf4c9c4011248c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81c1e8382a8404caab653cc3970a8762') in 0.053796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snapping Teleport Anchor.prefab
+  artifactKey: Guid(037ba65d346be2a48ad006b9a9a3873e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snapping Teleport Anchor.prefab using Guid(037ba65d346be2a48ad006b9a9a3873e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d513536385fff71588fc4d2faba6a39') in 0.040611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab
+  artifactKey: Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab using Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e25b698760ba1254d0eca1e90d3202ee') in 0.058403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/XR Device Simulator UI.prefab
+  artifactKey: Guid(ead42e0472b7547fbba6c229aeaf37d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/XR Device Simulator UI.prefab using Guid(ead42e0472b7547fbba6c229aeaf37d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33c851d599931b1067ba8e341767c1d8') in 0.135532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 765
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Mouse/MouseR_d.png
+  artifactKey: Guid(308cc8b73722e43eab64c228a76560a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Mouse/MouseR_d.png using Guid(308cc8b73722e43eab64c228a76560a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0efc5d5699c20688907af6ac3dfea8c') in 0.034745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+  artifactKey: Guid(893219773891c784ab469a39151879b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab using Guid(893219773891c784ab469a39151879b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12ce579289028022b39d0f60272b7867') in 0.020824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f44ea60fafc2eda72bf477320ec0a53') in 0.041390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
+  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0adbef90f89ee83ad8c7e4b5f6a45be') in 0.032988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Fist Expression Capture.asset
+  artifactKey: Guid(2a7c8ca0feac7cc44a5c225164ef311d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Fist Expression Capture.asset using Guid(2a7c8ca0feac7cc44a5c225164ef311d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5bc0589f9ac24b0b597115fbb7fc7c88') in 0.020314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset
+  artifactKey: Guid(3861c298d39c60c44b16920421444875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset using Guid(3861c298d39c60c44b16920421444875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42d7774f09669b52cedbbef34a081573') in 0.025287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/ControllerDevice/ControllerLeft.png
+  artifactKey: Guid(10abf1be8eef148d4aa4b96b2af7a9f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/ControllerDevice/ControllerLeft.png using Guid(10abf1be8eef148d4aa4b96b2af7a9f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efeb1e2e71e4ca41e656dbc214e74bdc') in 0.044335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab
+  artifactKey: Guid(870459f1cb8d7b7428337cc5935feb67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab using Guid(870459f1cb8d7b7428337cc5935feb67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8c204a0119dc4884b774dd911f6838a') in 0.057276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/XR Interaction Setup.prefab
+  artifactKey: Guid(895f6f3c2d334633b5800312285058d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Prefabs/XR Interaction Setup.prefab using Guid(895f6f3c2d334633b5800312285058d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72a85376a44f3a8b20e84000bf5af8c9') in 0.050042 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 334
 ========================================================================
 Received Import Request.
-  Time since last request: 3.010001 seconds.
-  path: Assets/Prefabs/targetIntact.prefab
-  artifactKey: Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/targetIntact.prefab using Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92e5100db442624cb10e591cf209830') in 0.019629 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bef9d686f5780718fa9f2d8a7e2f337') in 0.032759 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 335
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 2.641301 seconds.
-  path: Assets/Prefabs/targetIntact.prefab
-  artifactKey: Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/targetIntact.prefab using Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c081d7b23e0c00fd4f5aaf0b32cac0e') in 0.021598 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/CloseWindow.png
+  artifactKey: Guid(c76518a5819794083a346812c0906b77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/CloseWindow.png using Guid(c76518a5819794083a346812c0906b77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c727650fed74905393bf50404e126c1') in 0.037260 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 653
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 1.174514 seconds.
-  path: Assets/Prefabs/targetIntact.prefab
-  artifactKey: Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/targetIntact.prefab using Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ea8feecb94f2d8a0968e671d3c091a') in 0.020805 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/DestroySelf.cs
+  artifactKey: Guid(717c12e2a4cfe764ab2580b1135e10fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Scripts/DestroySelf.cs using Guid(717c12e2a4cfe764ab2580b1135e10fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '336c228aab2a3d024ed1f840dd7fcd1c') in 0.023232 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 653
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.584465 seconds.
-  path: Assets/Prefabs/targetIntact.prefab
-  artifactKey: Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/targetIntact.prefab using Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d03a0ab811a772d09fe1dddf54f6db') in 0.019101 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default XR UI Input Module.preset
+  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Presets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f72de5b520196558650df263f04ff65c') in 0.035187 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 653
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.178715 seconds.
-  path: Assets/Prefabs/targetIntact.prefab
-  artifactKey: Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/targetIntact.prefab using Guid(552cdf838b20a5f429989de8166b3492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47056f051d10d4f8a966942b3305cec2') in 0.022231 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/Locked.png
+  artifactKey: Guid(3aad042fcb57b4bed9d9a46b932df060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/General/Locked.png using Guid(3aad042fcb57b4bed9d9a46b932df060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a14768fcd0357df919aceea79d6fc3e5') in 0.048826 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 653
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Scripts/XRDeviceSimulatorControllerUI.cs
+  artifactKey: Guid(a907ece591e731e49b5d7be45f089972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Scripts/XRDeviceSimulatorControllerUI.cs using Guid(a907ece591e731e49b5d7be45f089972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e9d01301999abafe1fc3d6e895ee1f5') in 0.021119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat
+  artifactKey: Guid(dce3a789f595f224a85f5cf4f2e6667d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat using Guid(dce3a789f595f224a85f5cf4f2e6667d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9529bb00999582be2acda9fdce43a0b') in 0.037773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx
+  artifactKey: Guid(e42a245ddc40f744994b4b96b407ec47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx using Guid(e42a245ddc40f744994b4b96b407ec47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46f65a42959455ee38d1c8c9484fc8c4') in 0.041575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab
+  artifactKey: Guid(6fb840e833a0f2049b655aba4bf98513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab using Guid(6fb840e833a0f2049b655aba4bf98513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83e131330d1cad0917eabf4aea915a2c') in 0.029947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx
+  artifactKey: Guid(5cbb72520f7443f49b700d24eeec82e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx using Guid(5cbb72520f7443f49b700d24eeec82e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78dc81d410e6d6377c68be86e91072a7') in 0.040447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignette.mat
+  artifactKey: Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/Tunneling Vignette/TunnelingVignette.mat using Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adba24ce38a065843b94226b6c08a1e2') in 0.021180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab
+  artifactKey: Guid(d5615d616019430d9c2e8727e71c97fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '144e3d5b8624b7e31976120a984f3c0f') in 0.051797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Mountains_Soft_01.fbx
+  artifactKey: Guid(5b6bb883199850f4ea31ea5bd06aaf03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Mountains_Soft_01.fbx using Guid(5b6bb883199850f4ea31ea5bd06aaf03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b68b1bc5122eef05fe3866a56d503bef') in 0.034217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx
+  artifactKey: Guid(c7bd79f25c690294f893f8905d2264f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx using Guid(c7bd79f25c690294f893f8905d2264f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4cc8ef0a3d14a1ece5158dcdf6571cca') in 0.040770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/XR Device Simulator.prefab using Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b060160fc5ff1195f3014eb3ab7d2318') in 0.080950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 823
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx
+  artifactKey: Guid(7e4cace35ee41bc41870fd214b6609e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx using Guid(7e4cace35ee41bc41870fd214b6609e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3d2dee788befb8a35900dee794dcb2d') in 0.028740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/Weapons.cs
+  artifactKey: Guid(a064b8e11a0c9be4481f42f2aea9b796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Weapons.cs using Guid(a064b8e11a0c9be4481f42f2aea9b796) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d0a470327caba2fa251dc8b6301dc45') in 0.022211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Default.png
+  artifactKey: Guid(7d3dbc333af046c4193982e1166659dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Default.png using Guid(7d3dbc333af046c4193982e1166659dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a5d520eccff6617798535ea6becc9e5') in 0.050038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab
+  artifactKey: Guid(807bf6650795ad04395313d04ebe88c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab using Guid(807bf6650795ad04395313d04ebe88c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0dd4d1de27339d89851ee9bcd6d0539') in 0.028127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Coin_01.prefab
+  artifactKey: Guid(160a6121b4d25254da31bdab63ad82b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Coin_01.prefab using Guid(160a6121b4d25254da31bdab63ad82b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6506756debaeb79372fd220bce058d2a') in 0.033460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx
+  artifactKey: Guid(b9979013b18adc147ac208c3520b982e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx using Guid(b9979013b18adc147ac208c3520b982e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec47e1ddd3723803d8e45d5401efcc07') in 0.034344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab
+  artifactKey: Guid(09135c03210603f42b4207ff66b56781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab using Guid(09135c03210603f42b4207ff66b56781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98b2e67c75027e0a8c0abbcf65c72155') in 0.029598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab
+  artifactKey: Guid(777f53d3993533d4184fa410d0cdfae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab using Guid(777f53d3993533d4184fa410d0cdfae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '709772328828a93a876151cd99d67eba') in 0.024609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonStarter/Scenes/Demo.unity
+  artifactKey: Guid(5215016c20f88ea498985ac3e0ab4f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Scenes/Demo.unity using Guid(5215016c20f88ea498985ac3e0ab4f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14bc7878f3fb7941f1d2526241711cd6') in 0.016259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab
+  artifactKey: Guid(4ec4cfadebd96154690192fbd49e28b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab using Guid(4ec4cfadebd96154690192fbd49e28b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0dbb4d43a0f869bf4cc91fa323d7bfe3') in 0.033814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_01.fbx
+  artifactKey: Guid(03d86e12787766148b2a251a345936f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_01.fbx using Guid(03d86e12787766148b2a251a345936f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '782857b4bffe70a5c1963ed1a7fc7638') in 0.029450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab
+  artifactKey: Guid(139b3e971e6648b459617b164e32d96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab using Guid(139b3e971e6648b459617b164e32d96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa8606c9a5c5a385b06bef6fc68bdfa7') in 0.028088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx
+  artifactKey: Guid(bef96b6e1cd37444fa6937ae99361014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx using Guid(bef96b6e1cd37444fa6937ae99361014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6013bd1275e2c8b38e1105b57b053d4f') in 0.039593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Coin_01.fbx
+  artifactKey: Guid(b00a06e965af79a4c917d2b450d64c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Coin_01.fbx using Guid(b00a06e965af79a4c917d2b450d64c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50da00028053a0057e448d61484665d6') in 0.034653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/ControllerDevice/ControllerOverlayLinesRight.png
+  artifactKey: Guid(310ef0f38fe364cc986d05acdbdf1183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/ControllerDevice/ControllerOverlayLinesRight.png using Guid(310ef0f38fe364cc986d05acdbdf1183) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '799cf7b5d83cc83c4b1da1e54f9f5236') in 0.039013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 6.20 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -344,46 +1528,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.090 seconds
-Domain Reload Profiling: 2866ms
-	BeginReloadAssembly (260ms)
+- Finished resetting the current domain, in  1.394 seconds
+Domain Reload Profiling: 2130ms
+	BeginReloadAssembly (274ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (517ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (467ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2091ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1394ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1191ms)
+		SetupLoadedEditorAssemblies (586ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (67ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (862ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (36ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 7.86 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4266 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (31.2 KB). Loaded Objects now: 4761.
-Memory consumption went from 154.6 MB to 154.5 MB.
-Total: 8.343900 ms (FindLiveObjects: 0.478900 ms CreateObjectMapping: 0.438300 ms MarkObjects: 7.331900 ms  DeleteObjects: 0.093700 ms)
+Unloading 4267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (33.6 KB). Loaded Objects now: 4762.
+Memory consumption went from 155.7 MB to 155.6 MB.
+Total: 3.305500 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.248000 ms MarkObjects: 2.675700 ms  DeleteObjects: 0.053500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -400,18 +1584,434 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 57.860367 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(92625a6b566b4b44795aa976a033ebb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(92625a6b566b4b44795aa976a033ebb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136b4a2cfa9363b6cc7022070fcf0061') in 0.002886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.468 seconds
+Refreshing native plugins compatible for Editor in 10.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.183 seconds
+Domain Reload Profiling: 3639ms
+	BeginReloadAssembly (473ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (730ms)
+		LoadAssemblies (887ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (82ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2183ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4766.
+Memory consumption went from 157.8 MB to 157.8 MB.
+Total: 4.881300 ms (FindLiveObjects: 0.363900 ms CreateObjectMapping: 0.388900 ms MarkObjects: 4.056100 ms  DeleteObjects: 0.071100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.970350 seconds.
-  path: Assets/Scripts/Bullet.cs
-  artifactKey: Guid(87195afd8b1797a40848479146de70d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Bullet.cs using Guid(87195afd8b1797a40848479146de70d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1029dc795c4f97d93251f0be0c00e26') in 0.000513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.755 seconds
+Refreshing native plugins compatible for Editor in 5.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.778 seconds
+Domain Reload Profiling: 5526ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (4779ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (835ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 12.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.0 KB). Loaded Objects now: 4770.
+Memory consumption went from 159.8 MB to 159.7 MB.
+Total: 6.593500 ms (FindLiveObjects: 0.418300 ms CreateObjectMapping: 0.346600 ms MarkObjects: 5.728000 ms  DeleteObjects: 0.099200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.184 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.461 seconds
+Domain Reload Profiling: 3637ms
+	BeginReloadAssembly (393ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (589ms)
+		LoadAssemblies (787ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (970ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4774.
+Memory consumption went from 161.7 MB to 161.7 MB.
+Total: 32.014500 ms (FindLiveObjects: 0.612700 ms CreateObjectMapping: 0.459200 ms MarkObjects: 30.838700 ms  DeleteObjects: 0.102200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.753 seconds
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.434 seconds
+Domain Reload Profiling: 2180ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (63ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4778.
+Memory consumption went from 163.6 MB to 163.6 MB.
+Total: 3.825500 ms (FindLiveObjects: 0.333600 ms CreateObjectMapping: 0.316400 ms MarkObjects: 3.125000 ms  DeleteObjects: 0.049700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.797 seconds
+Refreshing native plugins compatible for Editor in 5.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.556 seconds
+Domain Reload Profiling: 2347ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1557ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4782.
+Memory consumption went from 165.5 MB to 165.5 MB.
+Total: 4.430200 ms (FindLiveObjects: 0.392500 ms CreateObjectMapping: 0.354900 ms MarkObjects: 3.626000 ms  DeleteObjects: 0.056000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.541 seconds
+Refreshing native plugins compatible for Editor in 7.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  4.415 seconds
+Domain Reload Profiling: 5946ms
+	BeginReloadAssembly (440ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (859ms)
+		LoadAssemblies (1047ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (4416ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (940ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (52ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 8.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4268 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 4786.
+Memory consumption went from 167.5 MB to 167.4 MB.
+Total: 5.844000 ms (FindLiveObjects: 0.593500 ms CreateObjectMapping: 0.415600 ms MarkObjects: 4.707400 ms  DeleteObjects: 0.125700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
