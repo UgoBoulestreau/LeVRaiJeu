@@ -22,7 +22,6 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        
     }
 
     private IEnumerator SpawnEnemiesCooldown(int waitingTime)

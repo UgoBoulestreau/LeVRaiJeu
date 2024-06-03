@@ -38,7 +38,9 @@ public class Pursue : MonoBehaviour
 
     private Vector3 PositionToPursue(Vector3 targetPosition)
     {
-        transform.rotation = Quaternion.LookRotation(targetPosition - transform.position);
+        Vector3 tartgetPos = new Vector3(targetPosition.x - transform.position.x, 0, targetPosition.z - transform.position.z);
+
+        transform.rotation = Quaternion.LookRotation(tartgetPos);
         Vector3 pursue = targetPosition + transform.forward;
 
         return pursue;
