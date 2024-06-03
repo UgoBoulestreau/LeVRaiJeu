@@ -27,7 +27,7 @@ public class Break : MonoBehaviour
             Vector3 force = (rb.transform.position - transform.position).normalized * breakForce;
             rb.AddForce(force);
         }
-
+        GameManager.instance.IncreaseScore(1);
         Destroy(gameObject);
     }
 }
