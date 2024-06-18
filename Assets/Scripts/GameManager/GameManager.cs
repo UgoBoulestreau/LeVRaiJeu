@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public GameObject[] EnemiesSpawners;
+
     private int score = 0;
     private int health = 10;
-    public GameObject[] EnemiesSpawners;
+    private GameObject[] targets;
+    private bool enemiesWaves = false;
 
     private void Awake()
     {
@@ -17,11 +20,22 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(SpawnEnemiesCooldown(7));
+        targets = GameObject.FindGameObjectsWithTag("Target");
     }
 
     private void Update()
     {
+        targets = GameObject.FindGameObjectsWithTag("Target");
+        checkTargetsNumber();
+    }
+
+    private void checkTargetsNumber()
+    {
+        if (targets.Length == 0 && enemiesWaves == false)
+        {
+            enemiesWaves = true;
+            StartCoroutine(SpawnEnemiesCooldown(3));
+        }
     }
 
     private IEnumerator SpawnEnemiesCooldown(int waitingTime)
@@ -36,7 +50,7 @@ public class GameManager : MonoBehaviour
         {
             spawner.GetComponent<SpawnEnnemies>().SpawnEnemy();
         }
-        StartCoroutine(SpawnEnemiesCooldown(10));
+        StartCoroutine(SpawnEnemiesCooldown(5));
     }
 
     void CreateSingleton()
